@@ -1,0 +1,58 @@
+<html>
+  <head>
+    <title>Select, Drag, & Drop</title>
+    <style type='text/css'>
+      body{
+        text-align: center;
+      }
+
+      .item{
+        border-bottom: solid 1px #09C;
+        font-weight: bold;
+        padding: 10px;
+        text-align: center;
+      }
+
+      .item.last{
+        border-bottom: none;
+      }
+
+      #thevoid{ 
+        background-color: #aaa;
+        border: double 4px #333;
+        height: 100px;
+        margin: 0px auto 20px;
+        padding: 10px;
+        width: 100px;
+      }
+
+      #thetable{
+        border: double 3px #09C;
+        margin: 0px auto;
+        width: 500px;
+      }
+
+    </style>
+  <head>
+  <body>
+    <h1>Select, Drag, & Drop</h1>
+    <div id='thevoid'>
+      <h2>The Void</h2>
+    </div>
+    <table id='thetable'>
+      <tr><td><div class="item"> I'm an item! </div></td></tr>
+      <tr><td><div class="item"> I'm an item! </div></td></tr>
+      <tr><td><div class="item"> I'm an item! </div></td></tr>
+      <tr><td><div class="item"> I'm an item! </div></td></tr>
+      <tr><td><div class="item"> I'm an item! </div></td></tr>
+      <tr><td><div class="item"> I'm an item! </div></td></tr>
+      <tr><td><div class="item"> I'm an item! </div></td></tr>
+      <tr><td><div class="item"> I'm an item! </div></td></tr>
+      <tr><td><div class="item"> I'm an item! </div></td></tr>
+      <tr><td><div class="item last"> I'm an item! </div></td></tr>
+    </table>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.14/jquery-ui.min.js" type="text/javascript"></script>
+  </body>
+</html>
